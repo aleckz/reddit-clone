@@ -1,4 +1,4 @@
-angular.module('redditClone', [])
+angular.module('redditClone', ['ui.router'])
 .factory('posts', [function(){
   var o = {
     posts: []
